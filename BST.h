@@ -118,7 +118,7 @@ void printtree( TreeNodePtr treePtr,int space)
    {
       printf(" ");
    }
-   printf("%d",treePtr->data);
+   printf("%3d",treePtr->data);
    printtree(treePtr->leftPtr,space);
    }
 }
